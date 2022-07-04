@@ -6,12 +6,12 @@ import Perfil from "../../src/img/perfil.PNG"
 import Lineas from "../../src/img/lineas.PNG"
 
 const Header = () => (
-<Navbar >
-  <Container class="box">
-  <Navbar.Brand>
+<Navbar style={{boxShadow: '0 2px 5px 0 #888', paddingTop:'0', paddingBottom:'0', height:'66px'}}>
+  <Navbar.Brand style={{height:'50px', width:'130px'}}>
       <img
         src= {Logo}
-        height="50"
+        height="50px"
+        width="130x"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       />
@@ -31,7 +31,6 @@ const Header = () => (
         alt="React Bootstrap logo"
       />
     </Navbar.Collapse>
-  </Container>
 </Navbar>
  )
  export default Header;

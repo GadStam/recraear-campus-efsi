@@ -6,8 +6,8 @@ import Perfil from "../../src/img/perfil.PNG"
 import Lineas from "../../src/img/lineas.PNG"
 
 const Carta = () => (
-<Card style={{marginTop:20, textAlign:"left", boxShadow: '5px 10px 20px #212121'}}>
-    <Card.Header style={{color:"blue"}}>
+<Card style={{marginTop:20, textAlign:"left", boxShadow: '0 2px 5px 0 #888', padding:'1rem'}}>
+    <Card.Header style={{color:"#039be5", fontSize:'19px', background:'white'}}>
     Inscripción ciclo lectivo 2021 - Nivel Secundario
     </Card.Header>
     <Card.Img variant="top" src={Inscripcion}/>

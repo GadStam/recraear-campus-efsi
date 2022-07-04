@@ -10,9 +10,23 @@ import Footer from './components/footer.js';
 function App() {
   return (
   <div className="App">
+    <Header />
+
     <Container>
-        <Header />
-        <Carrusel />
+    <div class="row">
+      <div class="row-col-12">
+          <Carrusel />
+        </div>
+        
+          <div className="col-md-3">
+          <Carta />
+          </div>
+          <div className="col-md-6">
+          <Carta />
+          </div>
+          <div className="col-md-3">
+          <Carta />
+          </div>
         <div className="row col-12">
 
           <div className="col-md-3">
@@ -26,20 +40,8 @@ function App() {
           </div>
 
         </div>
-        <div className="row col-12">
-
-          <div className="col-md-3">
-          <Carta />
-          </div>
-          <div className="col-md-6">
-          <Carta />
-          </div>
-          <div className="col-md-3">
-          <Carta />
-          </div>
-
         </div>
-    </Container>
+      </Container>
     <Footer />
 </div>
 )}
